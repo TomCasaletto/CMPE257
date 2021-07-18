@@ -1,0 +1,12 @@
+We are developing a component embedded in a self-driving app.
+
+Our software is meant to take input of a street sign and determine if it is a Speed Limit sign.  Further, if it is a Speed Limit sign, we identify what the Speed Limit is.
+
+* Data collection
+ - we could individually go out and curate a set of images of US street signs
+ - find a dataset online
+
+* Implementation
+ - build a neural net which inputs an image and output whether that image is a Speed Limit sign or not
+ - if it is a Speed Limit sign, return the numerical value of the Speed Limit
+
