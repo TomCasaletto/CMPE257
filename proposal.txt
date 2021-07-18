@@ -1,7 +1,11 @@
+Project title: 
 
-Project title
 
 Teaming information
+ Tom Casaletto
+ Anthony Fisher
+ Phil Shirts
+ Joel Wise
 
 Data set – indicate the source of the data set.
 
