@@ -1,0 +1,20 @@
+Project title: Urban Sounds Classification
+
+
+Teaming information
+ Tom Casaletto
+ Anthony Fisher
+ Phil Shirts
+ Joel Wise
+
+Data set – https://urbansounddataset.weebly.com/urbansound8k.html
+
+Sound can be an important cue for use in robotics or autonomous driving. An autonomous vehicle may want to pull to the side of the road if it hears a siren, for example.
+
+We will analyze the UrbanSound8k dataset and build a model using some type of neural network. The goal will be to classify the 10 types of sounds present in the dataset for use in a robotics or autonomous driving application.
+
+References to read:
+UrbanSound paper - http://www.justinsalamon.com/uploads/4/3/9/4/4394963/salamon_urbansound_acmmm14.pdf
+Environmental Sound Classification with Convolutional Neural Networks - https://repo.pw.edu.pl/docstore/download/@WUT6b1990c462fa406b9decaf80a7ea8f5e/Piczak2015-ESC-ConvNet.pdf
+Audio Classification - https://towardsdatascience.com/tagged/audio-classification
+Audio Deep Learning Made Simple - https://towardsdatascience.com/audio-deep-learning-made-simple-sound-classification-step-by-step-cebc936bbe5
