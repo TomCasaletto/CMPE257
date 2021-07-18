@@ -1,10 +1,11 @@
-We are developing a component embedded in a self-driving app.
+We are developing a component embedded in a self-driving app.  Assume another process segments visual images and passes our application a picture of a street sign.
 
-Our software is meant to take input of a street sign and determine if it is a Speed Limit sign.  Further, if it is a Speed Limit sign, we identify what the Speed Limit is.
+Our software is meant to take input of an image of a street sign and determine if it is a Speed Limit sign or not.  Further, if it is a Speed Limit sign, we identify what the numerical value of the Speed Limit is.
 
 * Data collection
- - we could individually go out and curate a set of images of US street signs
- - find a dataset online
+ - we could individually go out and curate a set of images of US street signs and then clean up that set such that all images are labelled with Yes/No and a numbered value
+ - all images need to be the same size
+ - find a dataset online; possibly label if needed
 
 * Implementation
  - build a neural net which inputs an image and output whether that image is a Speed Limit sign or not
