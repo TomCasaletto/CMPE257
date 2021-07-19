@@ -1,0 +1,41 @@
+Project title: Participate in the G2Net Gravitational Wave Detection Kaggle Competition.
+"In this competition, you’ll aim to detect GW signals from the mergers of binary black holes. 
+Specifically, you'll build a model to analyze simulated GW time-series data from a network of 
+Earth-based detectors."
+
+Teaming information
+ Tom Casaletto
+ Anthony Fisher
+ Phil Shirts
+ Joel Wise
+
+Competition timeline: Ongoing now.
+  September 22, 2021 - Entry deadline. 
+  September 29, 2021 - Final submission deadline.
+
+
+Competition rules:
+Team Limits
+The maximum team size is 5.
+(Our team has four members.)
+
+Submission Limits
+You may submit a maximum of 5 entries per day.
+(Nice for timely feedback.)
+
+You may select up to 2 final submissions for judging.
+
+Class submission timeline:
+We would submit our final entry by the final project 
+    report due date for our course of September 16, 2021.
+
+Data set – https://www.kaggle.com/c/g2net-gravitational-wave-detection/data
+(As the data is synthetic it is highly usable, allowing us to focus on 
+developing and training a machine learning model.)
+
+References to read:
+Contest Overview:
+https://www.kaggle.com/c/g2net-gravitational-wave-detection/overview
+
+Academic/Technical approach papers:
+TBD
