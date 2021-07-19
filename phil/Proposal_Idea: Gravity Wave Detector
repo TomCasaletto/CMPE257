@@ -41,5 +41,7 @@ Academic/Technical approach papers:
 1.) Application of stochastic resonance in gravitational-wave interferometer 
     https://arxiv.org/ftp/gr-qc/papers/0601/0601129.pdf
 2.) Use Machine Learning to Detect Gravitational Waves and Win!
+    "Your task will be to perform binary classification on this data and predict the probability 
+    of a new time series being either noise or signal(along with noise)."
     https://deeplearninguniversity.com/use-machine-learning-to-detect-gravitational-waves-and-win/
 TBD
