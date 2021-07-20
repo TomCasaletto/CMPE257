@@ -1,7 +1,4 @@
-Project title: Participate in the G2Net Gravitational Wave Detection Kaggle Competition.
-"In this competition, you’ll aim to detect GW signals from the mergers of binary black holes. 
-Specifically, you'll build a model to analyze simulated GW time-series data from a network of 
-Earth-based detectors."
+Project title: Participate in the G2Net Gravitational Wave Detection Kaggle Competition: binary classification of noise vs. noise+signal for gravitational waves.
 
 Teaming information
  Tom Casaletto
@@ -9,39 +6,58 @@ Teaming information
  Phil Shirts
  Joel Wise
 
-Competition timeline: Ongoing now.
-  September 22, 2021 - Entry deadline. 
-  September 29, 2021 - Final submission deadline.
-
-
-Competition rules:
-Team Limits
-The maximum team size is 5.
-(Our team has four members.)
-
-Submission Limits
-You may submit a maximum of 5 entries per day.
-(Nice for timely feedback.)
-
-You may select up to 2 final submissions for judging.
-
-Class submission timeline:
-We would submit our final entry by the final project 
-    report due date for our course of September 16, 2021.
-
 Data set – https://www.kaggle.com/c/g2net-gravitational-wave-detection/data
 (As the data is synthetic it is highly usable, allowing us to focus on 
 developing and training a machine learning model.)
 
+Project idea
+We will experiment with several mathematical noise reduction pre-processing 
+approaches and construct a binary classification model on the pre-processed data
+as entrants in the Gravitational Wave Detection Kaggle Competition.
+
+We will study and experiment with several approaches to building a binary 
+classification machine learning model, starting with the references below. 
+We will use the Kaggle contest leaderboard to get ongoing feedback as to 
+the viability of our models and approach.
+
+Kaggle Competition:
+"In this competition, you’ll aim to detect GW signals from the mergers of 
+binary black holes. Specifically, you'll build a model to analyze simulated 
+GW time-series data from a network of Earth-based detectors."
+
+
+Submission Limits
+We may submit a maximum of 5 entries per day to the leaderboard.
+(Nice for timely feedback.)
+
+We may select up to 2 final submissions for judging.
+
+Class submission timeline:
+We would submit our final entry by the final project report due date for our course of September 16, 2021.
+
+Competition timeline: Ongoing now.
+  September 22, 2021 - Entry deadline. 
+  September 29, 2021 - Final submission deadline.
+
 References to read:
 Contest Overview:
-https://www.kaggle.com/c/g2net-gravitational-wave-detection/overview
-
-Academic/Technical approach papers:
-1.) Application of stochastic resonance in gravitational-wave interferometer 
-    https://arxiv.org/ftp/gr-qc/papers/0601/0601129.pdf
-2.) Use Machine Learning to Detect Gravitational Waves and Win!
-    "Your task will be to perform binary classification on this data and predict the probability 
-    of a new time series being either noise or signal(along with noise)."
+1.)	https://www.kaggle.com/c/g2net-gravitational-wave-detection/overview
+2.)	“Use Machine Learning to Detect Gravitational Waves and Win!”
+     Your task will be to perform binary classification on this data and predict 
+     the probability of a new time series being either noise or signal (along with noise)."
     https://deeplearninguniversity.com/use-machine-learning-to-detect-gravitational-waves-and-win/
-TBD
+3.)	Discussion of the approaches and code samples from other contestants
+
+Academic/Technical Possible approach papers:
+1.) Application of stochastic resonance in gravitational-wave interferometer 
+    https://arxiv.org/ftp/gr-qc/papers/0601/0601129.pdf (We will try to experiment with binary/non-physical added stochastic resonance.)
+2.) Fourier filter as a form of dimensionality reduction preprocessing. 
+    https://terpconnect.umd.edu/~toh/spectrum/FourierFilter.html, and other related texts.
+3.)	Wavelet Denoising for pre-processing dimensionality reduction 
+    https://www.mathworks.com/help/wavelet/ug/wavelet-denoising.html
+4.) Noise Reduction using Wavelet Transform and Singular Vector Decomposition 
+    https://www.researchgate.net/publication/283184728_Noise_Reduction_using_Wavelet_Transform_and_Singular_Vector_Decomposition
+5.) Deep learning for time series classification: a review 
+    https://arxiv.org/pdf/1809.04356.pdf
+6.) Sktime: a Unified Python Library for Time Series Machine Learning. 
+    https://towardsdatascience.com/sktime-a-unified-python-library-for-time-series-machine-learning-3c103c139a55
