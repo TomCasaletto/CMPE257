@@ -15,10 +15,14 @@ Project idea
 We will experiment with several mathematical noise reduction pre-processing 
 approaches and construct a binary classification model on the pre-processed data
 as entrants in the Gravitational Wave Detection Kaggle Competition.
-We will study and experiment with several approaches to building a binary 
-classification machine learning model, starting with the references below. 
-We will use the Kaggle contest leaderboard to get ongoing feedback as to 
-the viability of our models and approach.
+
+Steps to Complete the Project:
+We will study and experiment with several approaches to removing noise from 
+the supplied synthetic data and then building a binary classification machine 
+learning model using that preprocessed data, starting with the references below.
+(Especially reference 5.) We will use the Kaggle contest leaderboard to get 
+ongoing feedback as to the viability of our models and approach.  And, we will use 
+the contest discussion board to learn what approaches other contestants are following.
 
 Kaggle Competition:
 "In this competition, you’ll aim to detect GW signals from the mergers of 
