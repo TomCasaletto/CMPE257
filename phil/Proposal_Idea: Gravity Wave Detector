@@ -1,4 +1,5 @@
-Project title: Participate in the G2Net Gravitational Wave Detection Kaggle Competition: binary classification of noise vs. noise+signal for gravitational waves.
+Project title: Participate in the G2Net Gravitational Wave Detection Kaggle Competition 
+(Binary classification of noise vs. noise+signal for gravitational waves.)
 
 Teaming information
  Tom Casaletto
@@ -23,7 +24,6 @@ Kaggle Competition:
 "In this competition, you’ll aim to detect GW signals from the mergers of 
 binary black holes. Specifically, you'll build a model to analyze simulated 
 GW time-series data from a network of Earth-based detectors."
-We plan to employ different noise reduction pre-processing techniques (see referenced, below)
 and then research how to (and then) build a binary classification model to try to identify the signal. 
 We may submit a maximum of 5 entries per day to the leaderboard. (Nice for timely feedback.)
 Competition Final submission deadline: September 29, 2021.
