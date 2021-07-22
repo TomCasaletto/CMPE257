@@ -38,7 +38,7 @@ References to read:
     https://arxiv.org/ftp/gr-qc/papers/0601/0601129.pdf (We will try to experiment with binary/non-physical added stochastic resonance.)
 3.) Fourier filter as a form of dimensionality reduction preprocessing. 
     https://terpconnect.umd.edu/~toh/spectrum/FourierFilter.html, and other related texts.
-4.) Noise Reduction using Wavelet Transform and Singular Vector Decomposition 
+4.) Noise Reduction using Wavelet Transform and Singular Vector Decomposition
     https://www.researchgate.net/publication/283184728_Noise_Reduction_using_Wavelet_Transform_and_Singular_Vector_Decomposition
 5.) Deep learning for time series classification: a review 
     https://arxiv.org/pdf/1809.04356.pdf
