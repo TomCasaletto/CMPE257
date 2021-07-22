@@ -32,7 +32,7 @@ and then research how to (and then) build a binary classification model to try t
 We may submit a maximum of 5 entries per day to the leaderboard. (Nice for timely feedback.)
 Competition Final submission deadline: September 29, 2021.
 
-References to read:
+References to read: 
 1.) https://www.kaggle.com/c/g2net-gravitational-wave-detection/overview
 2.) Application of stochastic resonance in gravitational-wave interferometer 
     https://arxiv.org/ftp/gr-qc/papers/0601/0601129.pdf (We will try to experiment with binary/non-physical added stochastic resonance.)
