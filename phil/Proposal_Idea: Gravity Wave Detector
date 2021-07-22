@@ -14,7 +14,6 @@ Project idea
 We will experiment with several mathematical noise reduction pre-processing 
 approaches and construct a binary classification model on the pre-processed data
 as entrants in the Gravitational Wave Detection Kaggle Competition.
-
 We will study and experiment with several approaches to building a binary 
 classification machine learning model, starting with the references below. 
 We will use the Kaggle contest leaderboard to get ongoing feedback as to 
@@ -24,17 +23,10 @@ Kaggle Competition:
 "In this competition, you’ll aim to detect GW signals from the mergers of 
 binary black holes. Specifically, you'll build a model to analyze simulated 
 GW time-series data from a network of Earth-based detectors."
-
-
 Submission Limits
 We may submit a maximum of 5 entries per day to the leaderboard.
 (Nice for timely feedback.)
-
 We may select up to 2 final submissions for judging.
-
-Class submission timeline:
-We would submit our final entry by the final project report due date for our course of September 16, 2021.
-
 Competition timeline: Ongoing now.
   September 22, 2021 - Entry deadline. 
   September 29, 2021 - Final submission deadline.
@@ -47,7 +39,6 @@ Contest Overview:
      the probability of a new time series being either noise or signal (along with noise)."
      https://deeplearninguniversity.com/use-machine-learning-to-detect-gravitational-waves-and-win/
 3.)	Discussion of the approaches and code samples from other contestants
-
 Academic/Technical Possible approach papers:
 1.) Application of stochastic resonance in gravitational-wave interferometer 
     https://arxiv.org/ftp/gr-qc/papers/0601/0601129.pdf (We will try to experiment with binary/non-physical added stochastic resonance.)
