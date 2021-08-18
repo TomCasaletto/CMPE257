@@ -28,6 +28,43 @@ print(test.info)
 print(train.head())
 print(test.head())
 
+# Let's get a subset of the data for testing
+num_train=1000
+num_test=100
+X_train = np.empty((num_train,3,4096),dtype='float64')
+y_train = np.empty((num_train),dtype='float64')
+for i in range(num_train):
+    X_train[i,:,:]=np.load(train.iloc[i][2])
+    y_train[i] = train.iloc[i][1]
+print(X_train.shape)
+print(X_train)
+
+X_test = np.empty((num_test,3,4096),dtype='float64')
+y_test = np.empty((num_test),dtype='float64')
+for i in range(num_test):
+    X_test[i,:,:]=np.load(test.iloc[i][2])
+    y_test[i] = test.iloc[i][1]
+print(X_test.shape)
+print(X_test)
+
+#with open('X_train.npy', 'wb') as f:
+#    np.save(f, X_train, allow_pickle=False)
+#with open('y_train.npy', 'wb') as f:
+#    np.save(f, y_train, allow_pickle=False)
+#with open('X_test.npy', 'wb') as f:
+#    np.save(f, X_test, allow_pickle=False)
+#with open('y_test.npy', 'wb') as f:
+#    np.save(f, y_test, allow_pickle=False)
+
+#X_train = X_train.reshape(X_train.shape[0], -1)
+#np.savetxt('X_train.csv', X_train, delimiter=',')
+#np.savetxt('y_train.csv', y_train, delimiter=',')
+#X_test = X_test.reshape(X_test.shape[0], -1)
+#np.savetxt('X_test.csv', X_test, delimiter=',')
+#np.savetxt('y_test.csv', y_test, delimiter=',')
+
+np.savez('gwz', X_train, y_train, X_test, y_test)
+
 # Let's plot the time series from the first training example
 print('First example')
 print(train.iloc[0][2])
